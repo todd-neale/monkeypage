@@ -1,0 +1,99 @@
+/* Colors and fonts */
+body {
+  background: black;
+  color: #edeacc;
+  font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: 'Press Start 2P', cursive;
+}
+h1 {
+  color: #dd1101;
+  font-size: 24px;
+  font-weight: 900;
+}
+h2 {
+  color: #f47900;
+  font-size: 15px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  color: #e3e108;
+  font-weight: 600;
+  font-size: 10px;
+}
+a:hover {
+  color: #ffba08;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+
+.card-808 {
+  background-color: #2a2720;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-edge {
+  border-radius: 20px;
+}
+.btn-red {
+  background-color: #dd1101;
+  color: black;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-red:hover {
+  background-color: #9d0208;
+  color: #e3e108;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #e3e108;
+}
+.list-inline i:hover {
+  color: #f47900;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
